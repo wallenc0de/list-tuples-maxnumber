@@ -22,6 +22,6 @@ def lists_tuples():
 def say_hi(name):
     print("Hi " + name +".")
 
-# The string inside the function call is only a little piece of information that we are setting to "name" parameter.
+# The string inside the function call is only a piece of information that we are setting to "name" parameter.
 say_hi("wallen")
 lists_tuples()
