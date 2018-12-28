@@ -17,10 +17,11 @@ def lists_tuples():
         print(f"{x[0]} has age {x[1]}.")
 
     for y in lucky_numbers:
-     print(f"\n{y[0]} - {y[1]} - {y[2]}")
+        print(f"\n{y[0]} - {y[1]} - {y[2]}")
+
 def say_hi(name):
     print("Hi " + name +".")
 
+# The string inside the function call is only a little piece of information that we are setting to "name" parameter.
 say_hi("wallen")
 lists_tuples()
-
