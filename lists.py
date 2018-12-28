@@ -1,23 +1,26 @@
-# This only contains examples with tuples and a list of lists.
+# This only contains examples with a list of lists and tuples.
 
 def lists_tuples():
-    print('I loaded \'people\' list.\n')
+    print('I loaded \'people\' and \'tuples\' list.\n')
 
-    lucky_numbers = [(2, 59, 58), (28, 49, 59)]
-    people = [
-        ["User_1", 20],
-        ["User_2", 30],
-        ["User_3", 14],
+    lucky_numbers = [
+        (80, 49, 78)
     ]
-    
+
+    people = [
+        ["Adams", 20],
+        ["Baker", 21],
+        ["Clark", 14],
+    ]
+
     for x in people:
-        print(f"{x[0]}, age - {x[1]}")
+        print(f"{x[0]} has age {x[1]}.")
 
-    for n in lucky_numbers:
-        print(f"{n[0]} - {n[1]}")
-
+    for y in lucky_numbers:
+     print(f"\n{y[0]} - {y[1]} - {y[2]}")
 def say_hi(name):
-    print(f"Hi {name}.")
+    print("Hi " + name +".")
 
 say_hi("wallen")
 lists_tuples()
+
