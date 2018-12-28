@@ -20,7 +20,7 @@ def lists_tuples():
         print(f"\n{y[0]} - {y[1]} - {y[2]}")
 
 def say_hi(name):
-    print("Hi " + name +".") # im often not using f-string, because the difference in terms of speed is really minimal ..
+    print("Hi " + name +".") # im often not using f-string, because the difference in speed is really minimal.
 
 # The string inside the function call is only a piece of information that we are setting to "name" parameter.
 say_hi("wallen")
