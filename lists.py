@@ -17,7 +17,7 @@ def lists_tuples():
         print(f"{x[0]} has age {x[1]}.")
 
     for y in lucky_numbers:
-        print(f"\n{y[0]} - {y[1]} - {y[2]}")
+        print(f"{y[0]} - {y[1]} - {y[2]}")
 
 def say_hi(name):
     print("Hi " + name +".") # im often not using f-string, because the difference in speed is really minimal.
