@@ -45,7 +45,7 @@ def max_num():
     num3 = int(input('Third number: '))
 
     if num1 >= num2 and num1 >= num3:
-        print(str(num1) + ' is the big number.') # Not using f-strings because the difference in speed is minimal.
+        print(str(num1) + ' is the big number.') # Not using f-strings because the difference in speed is minimal according to CPython.
     elif num2 >= num1 and num2 >= num3:
         print(str(num2) + ' is the big number.')
     else:
